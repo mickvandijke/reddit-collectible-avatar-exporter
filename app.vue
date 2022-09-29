@@ -1,10 +1,10 @@
 <template>
   <div class="p-6 flex flex-col items-center">
     <div class="flex flex-row justify-center">
-      <NuxtLink class="py-6 text-3xl text-white font-bold" to="/">Reddit Collectible Avatar Exporter</NuxtLink>
+      <NuxtLink class="py-6 text-lg md:text-3xl text-white font-bold" to="/">Reddit Collectible Avatar Exporter</NuxtLink>
     </div>
     <NuxtPage/>
-    <div class="py-12 text-neutral-600">
+    <div class="py-12 text-neutral-600 text-center">
       <span>This website is not affiliated or endorsed by reddit Inc. Images hosted on this website are the property of reddit Inc.</span>
     </div>
   </div>
