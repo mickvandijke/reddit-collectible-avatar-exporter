@@ -45,7 +45,7 @@
     <img ref="background" crossorigin="anonymous" class="hidden" :src="selectedBackground.path">
     <img ref="foreground" crossorigin="anonymous" class="hidden" :src="avatar">
     <canvas ref="canvas" width="552" height="736" class="hidden"></canvas>
-    <div class="mt-6 p-6 flex flex-col items-center text-neutral-200 text-sm font-semibold border border-neutral-800 rounded-3xl w-full">
+    <div class="mt-6 p-6 flex flex-col items-center text-neutral-200 text-sm font-semibold border border-neutral-800 rounded-3xl w-full max-w-lg">
       <span class="text-amber-500">Please consider sending a small thank you to my ETH wallet ❤️</span>
       <span class="mt-2 overflow-hidden break-all">0xB0753614730408d91Ccc46c1f4210efF0bee648B</span>
     </div>

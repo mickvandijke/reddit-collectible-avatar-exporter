@@ -4,8 +4,9 @@
       <NuxtLink class="py-6 text-lg md:text-3xl text-white font-bold" to="/">Reddit Collectible Avatar Exporter</NuxtLink>
     </div>
     <NuxtPage/>
-    <div class="py-12 text-neutral-600 text-center">
+    <div class="py-12 flex flex-col text-neutral-600 text-center">
       <span>This website is not affiliated or endorsed by reddit Inc. Images hosted on this website are the property of reddit Inc.</span>
+      <a class="mt-2 decoration-0 text-amber-500 hover:text-amber-600 duration-200" href="https://github.com/WarmBeer/reddit-collectible-avatar-exporter">View it on GitHub</a>
     </div>
   </div>
 </template>
