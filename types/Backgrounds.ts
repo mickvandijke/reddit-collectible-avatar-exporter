@@ -21,4 +21,10 @@ export const Backgrounds: Array<Background> = [
     new Background("Cone Head", "/images/nfts/ConeHead.png"),
     new Background("Birdie", "/images/nfts/Birdie.png"),
     new Background("Silver Age Comics", "/images/nfts/SilverAgeComics.png"),
+    new Background("The Singularity", "/images/nfts/TheSingularity.png"),
+    new Background("Mia Flames", "/images/nfts/MiaFlames.png"),
+    new Background("Bow Wow Bandits", "/images/nfts/BowWowBandits.png"),
+    new Background("Knoo", "/images/nfts/Knoo.png"),
+    new Background("Butterfly of Diamonds", "/images/nfts/ButterflyOfDiamonds.png"),
+    new Background("Groovy", "/images/nfts/Groovy.png"),
 ];
