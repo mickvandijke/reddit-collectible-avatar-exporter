@@ -20,13 +20,17 @@
     </div>
     <div class="mt-6 py-6">
       <div class="w-72 h-96 relative">
-        <img ref="demoBackground" class="w-full h-full absolute" :src="selectedBackground.path">
         <img
-            ref="demoForeground"
+            class="w-full h-full absolute"
+            :src="selectedBackground.path"
+            :alt="avatarAltText"
+        >
+        <img
             class="absolute"
             :class="{ 'w-36': avatarSize === 'small', 'w-48': avatarSize === 'normal', 'centered': avatarPosition === 'centered', 'normal': avatarPosition === 'normal' }"
             style="left: 50%;"
             :src="avatar"
+            :alt="avatarAltText"
         >
       </div>
     </div>
@@ -42,8 +46,8 @@
         <option value="small">Small</option>
       </select>
     </div>
-    <img ref="background" crossorigin="anonymous" class="hidden" :src="selectedBackground.path">
-    <img ref="foreground" crossorigin="anonymous" class="hidden" :src="avatar">
+    <img ref="background" crossorigin="anonymous" class="hidden" :src="selectedBackground.path" alt="background">
+    <img ref="foreground" crossorigin="anonymous" class="hidden" :src="avatar" alt="foreground">
     <canvas ref="canvas" width="552" height="736" class="hidden"></canvas>
     <div class="mt-6 p-6 flex flex-col items-center text-neutral-200 text-sm font-semibold border border-neutral-800 rounded-3xl w-full max-w-lg">
       <span class="text-amber-500">Please consider sending a small thank you to my ETH wallet ❤️</span>
@@ -67,8 +71,6 @@ const avatarPosition = ref("normal");
 const avatarIntrinsicWidth = ref(380);
 const avatarIntrinsicHeight = ref(498);
 
-const demoBackground = ref(null);
-const demoForeground = ref(null);
 const background = ref(null);
 const foreground = ref(null);
 const canvas = ref(null);
@@ -82,6 +84,8 @@ fetch(apiRoute)
 
       if (data.data.snoovatar_img) {
         avatar.value = data.data.snoovatar_img;
+      } else {
+        avatar.value = "";
       }
 
       pending.value = false;

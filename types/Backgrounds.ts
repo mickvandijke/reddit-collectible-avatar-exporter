@@ -18,4 +18,7 @@ export const Backgrounds: Array<Background> = [
     new Background("Cheeky Beak", "/images/nfts/CheekyBeak.png"),
     new Background("Mouse au Chocolate", "/images/nfts/MouseAuChocolate.png"),
     new Background("Classic Animation", "/images/nfts/ClassicAnimation.png"),
+    new Background("Cone Head", "/images/nfts/ConeHead.png"),
+    new Background("Birdie", "/images/nfts/Birdie.png"),
+    new Background("Silver Age Comics", "/images/nfts/SilverAgeComics.png"),
 ];
