@@ -10,8 +10,8 @@
     </div>
     <div class="mt-6 py-6 flex flex-col items-center max-w-full">
       <ul class="p-6 flex flex-row flex-nowrap border border-neutral-800 w-full max-w-6xl overflow-x-auto rounded-3xl">
-        <li v-for="background in avatarBackgrounds" @click="selectedBackground = background" class="mr-3 flex flex-col shrink-0 cursor-pointer">
-          <div class="p-2 bg-neutral-800 border-2 border-transparent rounded-3xl hover:bg-neutral-700 drop-shadow duration-200" :class="{ 'border-amber-500': selectedBackground.name === background.name }">
+        <li v-for="(background, index) in avatarBackgrounds" @click="setBackground(index)" class="mr-3 flex flex-col shrink-0 cursor-pointer">
+          <div class="p-2 bg-neutral-800 border-2 border-transparent rounded-3xl hover:bg-neutral-700 drop-shadow duration-200" :class="{ 'border-amber-500': selectedBackgroundIndex === index }">
             <img class="w-48 h-64" :src="background.path" :alt="background.name">
             <div class="mt-2 text-neutral-200 text-sm text-center font-semibold">{{ background.name }}</div>
           </div>
@@ -27,7 +27,7 @@
         >
         <img
             class="absolute"
-            :class="{ 'w-36': avatarSize === 'small', 'w-48': avatarSize === 'normal', 'centered': avatarPosition === 'centered', 'normal': avatarPosition === 'normal' }"
+            :class="{ 'w-36': avatarSize === 'small', 'w-48': avatarSize === AvatarSize.Normal, 'centered': avatarPosition === AvatarPosition.Centered, 'normal': avatarPosition === AvatarPosition.Normal }"
             style="left: 50%;"
             :src="avatar"
             :alt="avatarAltText"
@@ -35,15 +35,13 @@
       </div>
     </div>
     <div class="mt-2 flex flex-col items-center w-32">
-      <label class="input-label">Avatar position</label>
-      <select class="py-2 input" v-model="avatarPosition" @change="drawAvatar">
-        <option value="normal">Normal</option>
-        <option value="centered">Centered</option>
+      <label class="input-label">Avatar size</label>
+      <select class="py-2 input capitalize" v-model="avatarSize" @change="drawAvatar">
+        <option v-for="size in AvatarSize" :value="size">{{ size }}</option>
       </select>
-      <label class="mt-6 input-label">Avatar size</label>
-      <select class="py-2 input" v-model="avatarSize" @change="drawAvatar">
-        <option value="normal">Normal</option>
-        <option value="small">Small</option>
+      <label class="mt-6 input-label">Avatar position</label>
+      <select class="py-2 input capitalize" v-model="avatarPosition" @change="drawAvatar">
+        <option v-for="position in AvatarPosition" :value="position">{{ position }}</option>
       </select>
     </div>
     <img ref="background" crossorigin="anonymous" class="hidden" :src="selectedBackground.path" alt="background">
@@ -57,18 +55,55 @@
   </div>
 </template>
 
-<script setup>
-import {useRoute} from "nuxt/app";
-import {onMounted, ref} from 'vue';
-import {getAvatarBackgrounds} from "../../types/AvatarBackgrounds";
+<script setup lang="ts">
+import {useRoute, useRouter} from "nuxt/app";
+import {onMounted, Ref, ref, watch} from 'vue';
+import {getAvatarBackgrounds} from "~/types/AvatarBackgrounds";
 
+enum AvatarSize {
+  Normal = "normal",
+  Small = "small"
+}
+
+enum AvatarPosition {
+  Normal = "normal",
+  Centered = "centered"
+}
+
+const router = useRouter();
 const route = useRoute();
 const user = route.params.user;
+
 const avatar = ref("");
 const avatarBackgrounds = getAvatarBackgrounds();
-const selectedBackground = ref(avatarBackgrounds[Math.floor(Math.random()*avatarBackgrounds.length)]);
-const avatarSize = ref("normal");
-const avatarPosition = ref("normal");
+const selectedBackgroundIndex: Ref<number> = ref(route.query.background ? parseInt(route.query.background as string) : Math.floor(Math.random()*avatarBackgrounds.length));
+
+if (selectedBackgroundIndex.value >= avatarBackgrounds.length || selectedBackgroundIndex.value < 0 ) {
+  selectedBackgroundIndex.value = 0;
+}
+
+const selectedBackground = ref(avatarBackgrounds[selectedBackgroundIndex.value]);
+
+const avatarSize: Ref<AvatarSize> = ref(AvatarSize.Normal);
+
+switch(route.query.size) {
+  case AvatarSize.Small:
+    avatarSize.value = AvatarSize.Small;
+    break;
+  default:
+    avatarSize.value = AvatarSize.Normal;
+}
+
+const avatarPosition: Ref<AvatarPosition> = ref(AvatarPosition.Normal);
+
+switch(route.query.position) {
+  case AvatarPosition.Centered:
+    avatarPosition.value = AvatarPosition.Centered;
+    break;
+  default:
+    avatarPosition.value = AvatarPosition.Normal;
+}
+
 const avatarIntrinsicWidth = ref(380);
 const avatarIntrinsicHeight = ref(498);
 
@@ -79,12 +114,21 @@ const canvas = ref(null);
 const apiRoute = `https://www.reddit.com/user/${user}/about.json`;
 const pending = ref(true);
 
+watch([selectedBackgroundIndex, avatarSize, avatarPosition], () => {
+  router.push({
+    query: {
+      background: selectedBackgroundIndex.value,
+      size: avatarSize.value,
+      position: avatarPosition.value },
+  })
+})
+
 fetch(apiRoute)
     .then(async (data) => {
       data = await data.json();
 
-      if (data.data.snoovatar_img) {
-        avatar.value = data.data.snoovatar_img;
+      if (data['data']['snoovatar_img']) {
+        avatar.value = data['data']['snoovatar_img'];
       } else {
         avatar.value = "";
       }
@@ -104,23 +148,17 @@ onMounted(() => {
   }
 })
 
-function getAvatarPositionTop(canvasHeight, avatarHeight) {
-  switch (avatarPosition.value) {
-    case "normal": {
-      return canvasHeight - avatarHeight - 75;
-    }
-    case "centered": {
-      return (canvasHeight / 2 - avatarHeight / 2)
-    }
-  }
+function setBackground(index) {
+  selectedBackgroundIndex.value = index;
+  selectedBackground.value = avatarBackgrounds[selectedBackgroundIndex.value];
 }
 
 function getCanvasAvatarWidth() {
   switch (avatarSize.value) {
-    case "normal": {
+    case AvatarSize.Normal: {
       return avatarIntrinsicWidth.value;
     }
-    case "small": {
+    case AvatarSize.Small: {
       return avatarIntrinsicWidth.value * 0.75;
     }
   }
@@ -128,15 +166,25 @@ function getCanvasAvatarWidth() {
 
 function getCanvasAvatarHeight() {
   switch (avatarSize.value) {
-    case "normal": {
+    case AvatarSize.Normal: {
       return avatarIntrinsicHeight.value;
     }
-    case "small": {
+    case AvatarSize.Small: {
       return avatarIntrinsicHeight.value * 0.75;
     }
   }
 }
 
+function getAvatarPositionTop(canvasHeight, avatarHeight) {
+  switch (avatarPosition.value) {
+    case AvatarPosition.Normal: {
+      return canvasHeight - avatarHeight - 75;
+    }
+    case AvatarPosition.Centered: {
+      return (canvasHeight / 2 - avatarHeight / 2)
+    }
+  }
+}
 
 function drawAvatar() {
   const context = canvas.value.getContext('2d');
