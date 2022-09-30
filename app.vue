@@ -11,6 +11,17 @@
   </div>
 </template>
 
+<script setup>
+import {useHead} from "nuxt/app";
+
+useHead({
+  title: 'Reddit Avatar Exporter',
+  meta: [
+    { name: 'description', content: 'Export your Reddit Collectible Avatar with any background you like in high resolution!' }
+  ]
+})
+</script>
+
 <style>
 html, body {
   @apply bg-zinc-900;
