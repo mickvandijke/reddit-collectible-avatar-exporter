@@ -10,8 +10,8 @@
     </div>
     <div class="mt-6 py-6 flex flex-col items-center max-w-full">
       <ul class="p-6 flex flex-row flex-nowrap border border-neutral-800 w-full max-w-6xl overflow-x-auto rounded-3xl">
-        <li v-for="background in Backgrounds" @click="selectedBackground = background" class="mr-3 flex flex-col shrink-0 cursor-pointer">
-          <div class="p-2 bg-neutral-800 border-2 border-transparent rounded-3xl hover:bg-neutral-700 drop-shadow duration-200" :class="{ 'border-amber-500': selectedBackground.path === background.path }">
+        <li v-for="background in avatarBackgrounds" @click="selectedBackground = background" class="mr-3 flex flex-col shrink-0 cursor-pointer">
+          <div class="p-2 bg-neutral-800 border-2 border-transparent rounded-3xl hover:bg-neutral-700 drop-shadow duration-200" :class="{ 'border-amber-500': selectedBackground.name === background.name }">
             <img class="w-48 h-64" :src="background.path" :alt="background.name">
             <div class="mt-2 text-neutral-200 text-sm text-center font-semibold">{{ background.name }}</div>
           </div>
@@ -59,13 +59,14 @@
 
 <script setup>
 import {useRoute} from "nuxt/app";
-import {Backgrounds} from "../../types/Backgrounds";
 import {onMounted, ref} from 'vue';
+import {getAvatarBackgrounds} from "../../types/AvatarBackgrounds";
 
 const route = useRoute();
 const user = route.params.user;
 const avatar = ref("");
-const selectedBackground = ref(Backgrounds[2]);
+const avatarBackgrounds = getAvatarBackgrounds();
+const selectedBackground = ref(avatarBackgrounds[Math.floor(Math.random()*avatarBackgrounds.length)]);
 const avatarSize = ref("normal");
 const avatarPosition = ref("normal");
 const avatarIntrinsicWidth = ref(380);

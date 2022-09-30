@@ -1,0 +1,785 @@
+[
+  {
+    "series": "5 Boro Bodega",
+    "title": "deadass from ny",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/BD9YiTQ0Keo_Background_Card_Deadass__1_.png",
+    "artist": {
+      "prefixedName": "u/bodegacatceo",
+      "title": "bodegacatceo"
+    }
+  },
+  {
+    "series": "5 Boro Bodega",
+    "title": "Gummy",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/4BMFC0GvubU_Background_Card_Gummy__1_.png",
+    "artist": {
+      "prefixedName": "u/bodegacatceo",
+      "title": "bodegacatceo"
+    }
+  },
+  {
+    "series": "5 Boro Bodega",
+    "title": "Pickle Guy",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/r5KfGJggxoE_Background_Card_Pickle__1_.png",
+    "artist": {
+      "prefixedName": "u/bodegacatceo",
+      "title": "bodegacatceo"
+    }
+  },
+  {
+    "series": "Avatar Rock Out",
+    "title": "Julia Jewels",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/QWFTBCd6tmI_BGC_julia_jewels_003.png",
+    "artist": {
+      "prefixedName": "u/dubbl3bee",
+      "title": "dubbl3bee"
+    }
+  },
+  {
+    "series": "Avatar Rock Out",
+    "title": "Lara Lava",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/x7PeCnhOeAs_BGC_lara_lava_002.png",
+    "artist": {
+      "prefixedName": "u/dubbl3bee",
+      "title": "dubbl3bee"
+    }
+  },
+  {
+    "series": "Avatar Rock Out",
+    "title": "Les Rock",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/UI4W3ys3XdI_BGC_les_rock_001.png",
+    "artist": {
+      "prefixedName": "u/dubbl3bee",
+      "title": "dubbl3bee"
+    }
+  },
+  {
+    "series": "Aylia",
+    "title": "Bim",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/c00CLYkgx7I_BACKGROUND_BIM.png",
+    "artist": {
+      "prefixedName": "u/AVIRENFT",
+      "title": "Avire"
+    }
+  },
+  {
+    "series": "Aylia",
+    "title": "Maia",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/jJ50OuOddXg_BACKGROUND_LAYLA.png",
+    "artist": {
+      "prefixedName": "u/AVIRENFT",
+      "title": "Avire"
+    }
+  },
+  {
+    "series": "Aylia",
+    "title": "Maru",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/ljKUDDNjf7k_BACKGROUND_MARU.png",
+    "artist": {
+      "prefixedName": "u/AVIRENFT",
+      "title": "Avire"
+    }
+  },
+  {
+    "series": "Baked Goods & Evils",
+    "title": "B•E•N•O•T•A•F•R•A•I•D",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/jWLFHoJIFHI_angel.png",
+    "artist": {
+      "prefixedName": "u/TreasureOfOphiel",
+      "title": "Treasure Of Ophiel"
+    }
+  },
+  {
+    "series": "Baked Goods & Evils",
+    "title": "Boroborygmius",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/DMnAZEMUi1E_demon.png",
+    "artist": {
+      "prefixedName": "u/TreasureOfOphiel",
+      "title": "Treasure Of Ophiel"
+    }
+  },
+  {
+    "series": "Baked Goods & Evils",
+    "title": "Sweet Providence",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/j1l57tgEZFk_donut.png",
+    "artist": {
+      "prefixedName": "u/TreasureOfOphiel",
+      "title": "Treasure Of Ophiel"
+    }
+  },
+  {
+    "series": "Bites of Brazil",
+    "title": "Flor",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/x5CZlnayius_background_flor.png",
+    "artist": {
+      "prefixedName": "u/fmarxy",
+      "title": "Fernando Marques"
+    }
+  },
+  {
+    "series": "Bites of Brazil",
+    "title": "Maria",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/-27XGEGjkOQ_background_maria.png",
+    "artist": {
+      "prefixedName": "u/fmarxy",
+      "title": "Fernando Marques"
+    }
+  },
+  {
+    "series": "Bites of Brazil",
+    "title": "Sandro",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/LO77Jb_h-3I_background_sandro.png",
+    "artist": {
+      "prefixedName": "u/fmarxy",
+      "title": "Fernando Marques"
+    }
+  },
+  {
+    "series": "Celestial Assembly",
+    "title": "Dr. Nickelmittens",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/enjbnDIEOXc_bgc_outfit2_conall.png",
+    "artist": {
+      "prefixedName": "u/Conall-in-Space",
+      "title": "Conall Murray"
+    }
+  },
+  {
+    "series": "Celestial Assembly",
+    "title": "Series-137",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/2bykgNBn2Vk_bgc_outfit1_conall.png",
+    "artist": {
+      "prefixedName": "u/Conall-in-Space",
+      "title": "Conall Murray"
+    }
+  },
+  {
+    "series": "Celestial Assembly",
+    "title": "The Assembler",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/A9aUHvzttHc_bgc_outfit3_conall.png",
+    "artist": {
+      "prefixedName": "u/Conall-in-Space",
+      "title": "Conall Murray"
+    }
+  },
+  {
+    "series": "Creatures of the Nighties",
+    "title": "Dark Wolf",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/ltV-2UpdUz0_Background_Card_EXPORT_Template_2.png",
+    "artist": {
+      "prefixedName": "u/MrGrumble84",
+      "title": "Mr. Grumble"
+    }
+  },
+  {
+    "series": "Creatures of the Nighties",
+    "title": "Possum",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/ltV-2UpdUz0_Background_Card_EXPORT_Template_2.png",
+    "artist": {
+      "prefixedName": "u/MrGrumble84",
+      "title": "Mr. Grumble"
+    }
+  },
+  {
+    "series": "Creatures of the Nighties",
+    "title": "Red Bat",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/ltV-2UpdUz0_Background_Card_EXPORT_Template_2.png",
+    "artist": {
+      "prefixedName": "u/MrGrumble84",
+      "title": "Mr. Grumble"
+    }
+  },
+  {
+    "series": "Creatures Without Pants",
+    "title": "Avataur",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/9aGwL4eHYgI_centaur.png",
+    "artist": {
+      "prefixedName": "u/Earthtoplanet",
+      "title": "Earth To Planet Comics"
+    }
+  },
+  {
+    "series": "Creatures Without Pants",
+    "title": "Medusatar",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/8v2ethIeVVY_medusa.png",
+    "artist": {
+      "prefixedName": "u/Earthtoplanet",
+      "title": "Earth To Planet Comics"
+    }
+  },
+  {
+    "series": "Creatures Without Pants",
+    "title": "Scalatar",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/V2327oy5LHA_dragon.png",
+    "artist": {
+      "prefixedName": "u/Earthtoplanet",
+      "title": "Earth To Planet Comics"
+    }
+  },
+  {
+    "series": "Cute, Cool and Creepy",
+    "title": "Ancestral Tree",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/7sYBEBW0wQ8_Baldtuesdays___BGC___AncestralTree.png",
+    "artist": {
+      "prefixedName": "u/BaldTuesdays",
+      "title": "BaldTuesdays"
+    }
+  },
+  {
+    "series": "Cute, Cool and Creepy",
+    "title": "Cat Fish",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/QBTJxBnvHkk_Baldtuesdays___BGC___CatFish.png",
+    "artist": {
+      "prefixedName": "u/BaldTuesdays",
+      "title": "BaldTuesdays"
+    }
+  },
+  {
+    "series": "Cute, Cool and Creepy",
+    "title": "Golden Hands",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/bnTMNRslrcE_Baldtuesdays___BGC___GoldenHands.png",
+    "artist": {
+      "prefixedName": "u/BaldTuesdays",
+      "title": "BaldTuesdays"
+    }
+  },
+  {
+    "series": "Cute Snacks",
+    "title": "Avo Cato",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/M2X4my_dHcA_avocato.png",
+    "artist": {
+      "prefixedName": "u/tirli",
+      "title": ""
+    }
+  },
+  {
+    "series": "Cute Snacks",
+    "title": "Hot Dog",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/AfzyMLmGE3E_hotdog.png",
+    "artist": {
+      "prefixedName": "u/tirli",
+      "title": ""
+    }
+  },
+  {
+    "series": "Cute Snacks",
+    "title": "Mouse au Chocolat",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/gBNiJnGJ13k_mouseauchocolate.png",
+    "artist": {
+      "prefixedName": "u/tirli",
+      "title": ""
+    }
+  },
+  {
+    "series": "Doodle Collection",
+    "title": "Knoo",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/_6DJSf6NMHI_background_card_2_Viking.png",
+    "artist": {
+      "prefixedName": "u/Hoppy_Doodle",
+      "title": "Hoppy Doodle "
+    }
+  },
+  {
+    "series": "Doodle Collection",
+    "title": "S'moore",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/k2rIBAVLvBo_background_card_3_Alien.png",
+    "artist": {
+      "prefixedName": "u/Hoppy_Doodle",
+      "title": "Hoppy Doodle "
+    }
+  },
+  {
+    "series": "Doodle Collection",
+    "title": "Stoo",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/lhyH6F_nr-Q_background_card_1_Steam.png",
+    "artist": {
+      "prefixedName": "u/Hoppy_Doodle",
+      "title": "Hoppy Doodle "
+    }
+  },
+  {
+    "series": "Drag Queens of Big Gay Baby",
+    "title": "April May",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/UsLlYRjv1sU_Background_Card_EXPORT_Template_2.png",
+    "artist": {
+      "prefixedName": "u/BigGayBaby_",
+      "title": "big gay baby <3"
+    }
+  },
+  {
+    "series": "Drag Queens of Big Gay Baby",
+    "title": "Hydrogen Purroxide",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/B1uOFfpgkfA_Background_Card_EXPORT_Template_4.png",
+    "artist": {
+      "prefixedName": "u/BigGayBaby_",
+      "title": "big gay baby <3"
+    }
+  },
+  {
+    "series": "Drag Queens of Big Gay Baby",
+    "title": "Miss Ophelia Surprise",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/QqFb4QkyrBg_Background_Card_EXPORT_Template_3.png",
+    "artist": {
+      "prefixedName": "u/BigGayBaby_",
+      "title": "big gay baby <3"
+    }
+  },
+  {
+    "series": "Enlightenment",
+    "title": "Etsuko",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/dt_ifHEGP8g_worsttwitchever.png",
+    "artist": {
+      "prefixedName": "u/WorstTwitchEver",
+      "title": "Chrono"
+    }
+  },
+  {
+    "series": "Enlightenment",
+    "title": "Miran",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/dt_ifHEGP8g_worsttwitchever.png",
+    "artist": {
+      "prefixedName": "u/WorstTwitchEver",
+      "title": "Chrono"
+    }
+  },
+  {
+    "series": "Enlightenment",
+    "title": "Raiza",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/dt_ifHEGP8g_worsttwitchever.png",
+    "artist": {
+      "prefixedName": "u/WorstTwitchEver",
+      "title": "Chrono"
+    }
+  },
+  {
+    "series": "Foustlings",
+    "title": "Classic Foustling",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/EgEkU1PFRas_Background_Card_EXPORT_Template_Snoo_1.png",
+    "artist": {
+      "prefixedName": "u/tfoust10",
+      "title": "Tyler Foust"
+    }
+  },
+  {
+    "series": "Foustlings",
+    "title": "Fishy Foustling",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/zwRB0fAGGvg_Background_Card_EXPORT_Template_Snoo_3.png",
+    "artist": {
+      "prefixedName": "u/tfoust10",
+      "title": "Tyler Foust"
+    }
+  },
+  {
+    "series": "Foustlings",
+    "title": "Rainbow Foustling",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/lknieCeH6-E_Background_Card_EXPORT_Snoo_2.png",
+    "artist": {
+      "prefixedName": "u/tfoust10",
+      "title": "Tyler Foust"
+    }
+  },
+  {
+    "series": "Gettin' Groovy",
+    "title": "Euphoric Swirls",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/R6IRF1qYdG8_Jake_Dissmore___Ethereal_Background.png",
+    "artist": {
+      "prefixedName": "u/RaunchyRancor",
+      "title": "Dissmore.Designs"
+    }
+  },
+  {
+    "series": "Gettin' Groovy",
+    "title": "Groovy",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/8nwS6UWPez0_Jake_Dissmore___Groovy_Background.png",
+    "artist": {
+      "prefixedName": "u/RaunchyRancor",
+      "title": "Dissmore.Designs"
+    }
+  },
+  {
+    "series": "Gettin' Groovy",
+    "title": "Lava Lamp Avatar",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/HZcwmuBpzH4_Jake_Dissmore___Amoeba_Background.png",
+    "artist": {
+      "prefixedName": "u/RaunchyRancor",
+      "title": "Dissmore.Designs"
+    }
+  },
+  {
+    "series": "Growl Gang",
+    "title": "Bow Wow Bandits",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/QFbtv7u7Z6I_Background_Card_Outfit2revise.png",
+    "artist": {
+      "prefixedName": "u/puzzled__panther",
+      "title": "Puzzled Panther"
+    }
+  },
+  {
+    "series": "Growl Gang",
+    "title": "Pounce Patrol",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/By6E8CBwsTU_Background_Card_Outfit3revise.png",
+    "artist": {
+      "prefixedName": "u/puzzled__panther",
+      "title": "Puzzled Panther"
+    }
+  },
+  {
+    "series": "Growl Gang",
+    "title": "Speedy Demons",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/bigeue7yX7g_Background_Card_Outfit1revise.png",
+    "artist": {
+      "prefixedName": "u/puzzled__panther",
+      "title": "Puzzled Panther"
+    }
+  },
+  {
+    "series": "Imagination Station",
+    "title": "Big City Bear",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/6W1y5GFl5S8_bigcitybear.png",
+    "artist": {
+      "prefixedName": "u/ChipperdoodlesComic",
+      "title": "Chipperdoodle"
+    }
+  },
+  {
+    "series": "Imagination Station",
+    "title": "Cone Head",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/khF1qCWDmVw_conehead.png",
+    "artist": {
+      "prefixedName": "u/ChipperdoodlesComic",
+      "title": "Chipperdoodle"
+    }
+  },
+  {
+    "series": "Imagination Station",
+    "title": "Kid Rexie",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/cBB8zWnsVCM_dinokid.png",
+    "artist": {
+      "prefixedName": "u/ChipperdoodlesComic",
+      "title": "Chipperdoodle"
+    }
+  },
+  {
+    "series": "I quit my job to be an Artist",
+    "title": "Confidence",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/n8wqhvXAf0w_completelyblankreal.png",
+    "artist": {
+      "prefixedName": "u/Tandizojere",
+      "title": "Eric Hagan"
+    }
+  },
+  {
+    "series": "I quit my job to be an Artist",
+    "title": "Frustrated",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/n8wqhvXAf0w_completelyblankreal.png",
+    "artist": {
+      "prefixedName": "u/Tandizojere",
+      "title": "Eric Hagan"
+    }
+  },
+  {
+    "series": "I quit my job to be an Artist",
+    "title": "Progress",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/n8wqhvXAf0w_completelyblankreal.png",
+    "artist": {
+      "prefixedName": "u/Tandizojere",
+      "title": "Eric Hagan"
+    }
+  },
+  {
+    "series": "Joy Girls Club",
+    "title": "Disco Queen Joy Girl",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/7uYIeNyFx-Q_Joyce_BG_Card_2.png",
+    "artist": {
+      "prefixedName": "u/JoycevonD",
+      "title": ""
+    }
+  },
+  {
+    "series": "Joy Girls Club",
+    "title": "Joy Kawaii Cowgirl",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/fCzp1P7rdzM_Joyce_BG_Card_1.png",
+    "artist": {
+      "prefixedName": "u/JoycevonD",
+      "title": ""
+    }
+  },
+  {
+    "series": "Joy Girls Club",
+    "title": "Joy Kawaii Material Girl",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/ehv0tmHOcSw_Joyce_BG_Card_3.png",
+    "artist": {
+      "prefixedName": "u/JoycevonD",
+      "title": ""
+    }
+  },
+  {
+    "series": "Lightspeed Lads",
+    "title": "Battery Bot",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/cGMyo8k-TCA_battery_bot_bgcard.png",
+    "artist": {
+      "prefixedName": "u/eando9745",
+      "title": "Eric Anderson"
+    }
+  },
+  {
+    "series": "Lightspeed Lads",
+    "title": "Bloopy McBloopface",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/YAhiKtXeGSE_bloopy_bgcard.png",
+    "artist": {
+      "prefixedName": "u/eando9745",
+      "title": "Eric Anderson"
+    }
+  },
+  {
+    "series": "Lightspeed Lads",
+    "title": "Dr. Morris Von Wrinklebrain",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/cTQE1Ow4Sao_dr_morris_bgcard.png",
+    "artist": {
+      "prefixedName": "u/eando9745",
+      "title": "Eric Anderson"
+    }
+  },
+  {
+    "series": "Magic of the Woods",
+    "title": "Bewitching Eyes",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/q6dJCOVJMLs_WitchBackgroundCard.png",
+    "artist": {
+      "prefixedName": "u/AliciaFreemanDesigns",
+      "title": "Alicia Freeman"
+    }
+  },
+  {
+    "series": "Magic of the Woods",
+    "title": "Flower Fairy",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/q4yw8Pk8gwM_FairyBackgroundCard.png",
+    "artist": {
+      "prefixedName": "u/AliciaFreemanDesigns",
+      "title": "Alicia Freeman"
+    }
+  },
+  {
+    "series": "Magic of the Woods",
+    "title": "So Much Truffle",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/S7ANjtbzZ_8_FungiBackgroundCard.png",
+    "artist": {
+      "prefixedName": "u/AliciaFreemanDesigns",
+      "title": "Alicia Freeman"
+    }
+  },
+  {
+    "series": "Natsukashii",
+    "title": "Kitsune",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/5x3M3jo-BBk_jimmyguoBGC2.png",
+    "artist": {
+      "prefixedName": "u/GenuineArdvark",
+      "title": "Jimmy Guo"
+    }
+  },
+  {
+    "series": "Natsukashii",
+    "title": "Yamata",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/3IGZK2SeCBE_jimmyguoBGC1.png",
+    "artist": {
+      "prefixedName": "u/GenuineArdvark",
+      "title": "Jimmy Guo"
+    }
+  },
+  {
+    "series": "Natsukashii",
+    "title": "Yami",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/-XnIgbV_uCo_jimmyguoBGC3.png",
+    "artist": {
+      "prefixedName": "u/GenuineArdvark",
+      "title": "Jimmy Guo"
+    }
+  },
+  {
+    "series": "Old School Cool",
+    "title": "Classic Animation",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/c72Txaouai8_animation.png",
+    "artist": {
+      "prefixedName": "u/Canetoonist",
+      "title": "Canetoonist"
+    }
+  },
+  {
+    "series": "Old School Cool",
+    "title": "Old-Timey Comedian",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/uZb0xHrWZpM_comedian.png",
+    "artist": {
+      "prefixedName": "u/Canetoonist",
+      "title": "Canetoonist"
+    }
+  },
+  {
+    "series": "Old School Cool",
+    "title": "Silver Age Comics",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/3OJo3JAixQg_silverage.png",
+    "artist": {
+      "prefixedName": "u/Canetoonist",
+      "title": "Canetoonist"
+    }
+  },
+  {
+    "series": "Peculiar Gang",
+    "title": "Cheeky Beak",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/pAVyodOy0CY_Cheeky_Beak_BGR__1_.png",
+    "artist": {
+      "prefixedName": "u/oana193",
+      "title": "Oanav_"
+    }
+  },
+  {
+    "series": "Peculiar Gang",
+    "title": "Mr. GeeOd",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/jIZTDXVaRoE_Mr_GeeOd_BGR.png",
+    "artist": {
+      "prefixedName": "u/oana193",
+      "title": "Oanav_"
+    }
+  },
+  {
+    "series": "Peculiar Gang",
+    "title": "Redd Mummy",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/CMoLkTYlK20_Redd_Mummy_BGR.png",
+    "artist": {
+      "prefixedName": "u/oana193",
+      "title": "Oanav_"
+    }
+  },
+  {
+    "series": "Protectors of the Forest",
+    "title": "Birdie",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/u4yxrvOOF9s_Laura_Dumitriu_BGC_3.png",
+    "artist": {
+      "prefixedName": "u/Laura_Dumitriu",
+      "title": "Laura D"
+    }
+  },
+  {
+    "series": "Protectors of the Forest",
+    "title": "Butterfly",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/XUyhE3aGLtc_Laura_Dumitriu_BGC_2.png",
+    "artist": {
+      "prefixedName": "u/Laura_Dumitriu",
+      "title": "Laura D"
+    }
+  },
+  {
+    "series": "Protectors of the Forest",
+    "title": "Dragonfly",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/1NCG2wWyddM_Laura_Dumitriu_BGC_1.png",
+    "artist": {
+      "prefixedName": "u/Laura_Dumitriu",
+      "title": "Laura D"
+    }
+  },
+  {
+    "series": "The Butterfly Garden",
+    "title": "Butterfly of Diamonds",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/DcaTHvkrMk4_Background_Card_EXPORT_Template_1.png",
+    "artist": {
+      "prefixedName": "u/Substantial-Law-910",
+      "title": "Artisma"
+    }
+  },
+  {
+    "series": "The Butterfly Garden",
+    "title": "Minted Monarch",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/gxwVEPVJC8g_Background_Card_EXPORT_Template_2.png",
+    "artist": {
+      "prefixedName": "u/Substantial-Law-910",
+      "title": "Artisma"
+    }
+  },
+  {
+    "series": "The Butterfly Garden",
+    "title": "Mutant Monarch",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/S5546bc3vWc_Background_Card_EXPORT_Template_3.png",
+    "artist": {
+      "prefixedName": "u/Substantial-Law-910",
+      "title": "Artisma"
+    }
+  },
+  {
+    "series": "The Mind's Eye(s)",
+    "title": "Good Morning Sunshine",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/XzlZfgi5YX0_Background__1_Template___Rounded_Corners.png",
+    "artist": {
+      "prefixedName": "u/TheFattyBagz",
+      "title": "FattyBagz"
+    }
+  },
+  {
+    "series": "The Mind's Eye(s)",
+    "title": "Mystic Fingers",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/Hz3KCBxvato_Background_Card__2__1_.png",
+    "artist": {
+      "prefixedName": "u/TheFattyBagz",
+      "title": "FattyBagz"
+    }
+  },
+  {
+    "series": "The Mind's Eye(s)",
+    "title": "Vegan Brains",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/uCR29Neb90w_Background__3_Template___Rounded_Corners__1_.png",
+    "artist": {
+      "prefixedName": "u/TheFattyBagz",
+      "title": "FattyBagz"
+    }
+  },
+  {
+    "series": "The Senses",
+    "title": "The Eyes",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/7ZCVhUd713U_Eyes.png",
+    "artist": {
+      "prefixedName": "u/Rojom",
+      "title": ""
+    }
+  },
+  {
+    "series": "The Senses",
+    "title": "The Hands",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/KRo_4MhAJhQ_Fingers.png",
+    "artist": {
+      "prefixedName": "u/Rojom",
+      "title": ""
+    }
+  },
+  {
+    "series": "The Senses",
+    "title": "The Mouths",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/wB0xyIvYVz4_Teeth.png",
+    "artist": {
+      "prefixedName": "u/Rojom",
+      "title": ""
+    }
+  },
+  {
+    "series": "Wearing Your Emotions",
+    "title": "Diamond Diablo",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/HvJ721F4O7M_Diamond_Diablo.png",
+    "artist": {
+      "prefixedName": "u/StutterVoid",
+      "title": "Stutter"
+    }
+  },
+  {
+    "series": "Wearing Your Emotions",
+    "title": "Mia Flames",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/EcQKUFPxT9k_MIA.png",
+    "artist": {
+      "prefixedName": "u/StutterVoid",
+      "title": "Stutter"
+    }
+  },
+  {
+    "series": "Wearing Your Emotions",
+    "title": "Mio Armor",
+    "backgroundImage": "https://i.redd.it/snoovatar/snoo_assets/w7I4I_4R5Dw_Mio_Armor.png",
+    "artist": {
+      "prefixedName": "u/StutterVoid",
+      "title": "Stutter"
+    }
+  }
+]
