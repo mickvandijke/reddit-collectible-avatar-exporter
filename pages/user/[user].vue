@@ -44,8 +44,8 @@
         <option v-for="position in AvatarPosition" :value="position">{{ position }}</option>
       </select>
     </div>
-    <img ref="background" crossorigin="anonymous" class="hidden" :src="selectedBackground.path" alt="background">
-    <img ref="foreground" crossorigin="anonymous" class="hidden" :src="avatar" alt="foreground">
+    <img ref="background" crossorigin="anonymous" class="hidden" :src="`${selectedBackground.path}?not-from-cache-please`" alt="background">
+    <img ref="foreground" crossorigin="anonymous" class="hidden" :src="`${avatar}?not-from-cache-please`" alt="foreground">
     <canvas ref="canvas" width="552" height="736" class="hidden"></canvas>
     <div class="mt-6 p-6 flex flex-col items-center text-neutral-200 text-sm font-semibold border border-neutral-800 rounded-3xl w-full max-w-lg">
       <span class="text-amber-500">Please consider sending a small thank you to my ETH wallet ❤️</span>
