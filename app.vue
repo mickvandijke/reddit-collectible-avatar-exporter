@@ -1,12 +1,17 @@
 <template>
-  <div class="p-6 flex flex-col items-center">
+  <div class="p-4 lg:p-6 flex flex-col items-center">
     <div class="flex flex-row justify-center">
-      <NuxtLink class="py-6 text-lg md:text-3xl text-white font-bold" to="/">Reddit Collectible Avatar Exporter</NuxtLink>
+      <NuxtLink class="pb-6 text-lg md:text-3xl text-white font-bold" to="/">Reddit Collectible Avatar Exporter</NuxtLink>
     </div>
     <NuxtPage/>
     <div class="py-12 flex flex-col text-neutral-600 text-center">
       <span>This website is not affiliated or endorsed by reddit Inc. Images hosted on this website are the property of reddit Inc.</span>
       <a class="mt-2 decoration-0 text-amber-500 hover:text-amber-600 duration-200" href="https://github.com/WarmBeer/reddit-collectible-avatar-exporter">View it on GitHub</a>
+      <div class="mt-6 px-2 py-1 flex flex-col flex-nowrap justify-center w-full rounded-2xl">
+        <span class="mb-2">Useful links:</span>
+        <a href="https://www.redditavatars.io/" class="text-amber-500">redditavatars.io</a>
+        <a href="https://www.redditportfolio.com/" class="ml-3 md:ml-6 text-amber-500">redditportfolio.com</a>
+      </div>
     </div>
   </div>
 </template>
